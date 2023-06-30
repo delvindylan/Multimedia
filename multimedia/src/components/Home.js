@@ -1,28 +1,19 @@
 import { Link } from "react-router-dom";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import MultimediaImage from "../Images/Multimedia-03.jpg";
 
 export default function Home() {
   return (
     <div>
-      
+      <div>
+        <div className="homeTitle">
+          <h1>Insurance Calculator</h1>
+        </div>
 
-      <Parallax pages={4}>
-        <ParallaxLayer 
-        offset={0.2} 
-        speed={1}
-        factor={2}
-        style={{
-            backgroundImage: 'url'
-        }}
-        >
-
-          <h1 className="homeTitle">Delvin Photography</h1>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={1}>
-          <h1>asdasd</h1>
-        </ParallaxLayer>
-      </Parallax>
+        <Link to="/calculator">
+          <input className="startButton" type="button" value="Start" />
+        </Link>
+      </div>
     </div>
   );
 }
