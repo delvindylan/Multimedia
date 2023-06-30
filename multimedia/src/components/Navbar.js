@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/" className="site-title">Home</Link>
             <ul>
-                <CustomLink to="/angebot">Angebot</CustomLink>
+                <CustomLink to="/angebote">Angebote</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/kontakt">Kontakt</CustomLink>
                 <CustomLink to="/impressum">Impressum</CustomLink>
