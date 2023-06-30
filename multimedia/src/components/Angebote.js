@@ -7,7 +7,12 @@ import Multimedia4 from "../Images/Multimedia-04.jpg"
 import Multimedia2 from "../Images/Multimedia-02.jpg"
 import Multimedia10 from "../Images/Multimedia-10.jpg"
 import Multimedia08 from "../Images/Multimedia-08.jpg"
-import Multimedia01 from "../Images/Multimedia-01.jpg"
+import Multimedia09 from "../Images/Multimedia-09.jpg"
+import Multimedia18 from "../Images/Multimedia-18.jpg"
+import Multimedia16 from "../Images/Multimedia-16.jpg"
+import Multimedia17 from "../Images/Multimedia-17.jpg"
+
+
 
 
 export default function Angebote() {
@@ -54,10 +59,25 @@ export default function Angebote() {
             <img id="Multimedia8" src={Multimedia08} alt="" />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={10.3}>
-            <img id="Multimedia01" src={Multimedia01} alt="" />
+        <ParallaxLayer offset={10.8}>
+            <img id="Multimedia09" src={Multimedia09} alt="" />
         </ParallaxLayer>
 
+        <ParallaxLayer offset={13.8}>
+          <h1 className="center">Auto Fotografie</h1>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={14.8}>
+            <img className="right" src={Multimedia18} alt="" />
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={15.8}>
+            <img className="left" src={Multimedia16} alt="" />
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={15.8}>
+            <img id="Multimedia17" src={Multimedia17} alt="" />
+        </ParallaxLayer>
 
         </Parallax>
     </div>

@@ -266,7 +266,7 @@ body {
 
 .left {
     position: absolute;
-    left: 200px;
+    left: 160px;
 }
 
 .right {
@@ -310,21 +310,32 @@ body {
     height: auto;
     position: absolute;
     left: 200px;
-    top: 400px;
+    top: 225px;
 }
 
-#Multimedia8 {
+
+#Multimedia09 {
     width: 40%;
     height: auto;
     position: absolute;
     right: 125px;
-    top: 200px;
+    top: 600px;
 }
 
-#Multimedia01 {
+#Multimedia18 {
     width: 40%;
     height: auto;
     position: absolute;
-    left: 200px;
-    top: 400px;
+    right: 125px;
+    top: 600px;
 }
+
+#Multimedia17 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 125px;
+    top: 800px;
+}
+
+
