@@ -226,7 +226,7 @@ body {
     padding-left: 210px;
 }
 
-.angeboteBody {
+.AboutBody {
     color: white;
 }
 
@@ -251,3 +251,80 @@ body {
     font-size: 2rem;
 }
 
+.angeboteBody {
+    color: white;
+}
+
+.angeboteBody img {
+    width: 60%;
+    height: auto;
+}
+
+.center {
+    font-size: 3rem;
+}
+
+.left {
+    position: absolute;
+    left: 200px;
+}
+
+.right {
+    position: absolute;
+    right: 125px;
+}
+
+#Multimedia6 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 200px;
+}
+
+#Multimedia4 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 125px;
+    top: 200px;
+}
+
+#Multimedia2 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+#Multimedia10 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 125px;
+    top: 200px;
+}
+
+#Multimedia8 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+#Multimedia8 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 125px;
+    top: 200px;
+}
+
+#Multimedia01 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}

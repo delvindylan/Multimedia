@@ -5,7 +5,7 @@ import Vegas from "../Images/Vegas.jpg";
 
 export default function About() {
   return (
-    <div className="angeboteBody">
+    <div className="AboutBody">
       <Parallax pages={3}>
 
         <ParallaxLayer offset={0.3}>
