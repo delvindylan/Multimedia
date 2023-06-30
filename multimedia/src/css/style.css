@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -244,3 +245,9 @@ body {
     top: 50px;
     right: 200px;
 }
+
+.ImpressumTitle {
+    color: white;
+    font-size: 2rem;
+}
+

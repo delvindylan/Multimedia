@@ -3,7 +3,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 export default function Angebote() {
   return (
     <div className="angeboteBody">
-      <Parallax pages={5}>
+      <Parallax pages={10}>
         <ParallaxLayer offset={0.3}>
           <h1>IF YOU WANT A PROFESSIONAL PHOTGRAPHER</h1>
         </ParallaxLayer>
