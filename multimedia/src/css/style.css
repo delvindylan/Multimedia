@@ -42,7 +42,7 @@ body {
 }
 
 .nav  {
-    background-color: rgba(103, 98, 105, 0.764);
+    background-color: rgba(103, 98, 105, 0.2);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -225,3 +225,22 @@ body {
     padding-left: 210px;
 }
 
+.angeboteBody {
+    color: white;
+}
+
+#pfp {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#vegas {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
